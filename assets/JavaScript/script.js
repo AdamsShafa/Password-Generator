@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import { shuffleArray, getRandom } from "./Assist.js";
 
+=======
+>>>>>>> e012dc4b89ff92e94e745b54745bf1e0fe18dbed
 // Array of special characters to be included in password
+import {getRandom, shuffleArray} from './Assist.js'
 var specialCharacters = [
   "@",
   "%",
