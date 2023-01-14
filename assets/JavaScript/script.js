@@ -1,4 +1,4 @@
-import { shuffleArray, getRandom } from "./helpers.js";
+import { shuffleArray, getRandom } from "./Assist.js";
 
 // Array of special characters to be included in password
 var specialCharacters = [

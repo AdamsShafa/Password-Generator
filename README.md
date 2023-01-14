@@ -9,4 +9,5 @@ Creating a JavaScript application that randomly generates password on a prompt. 
 Open the index.html file from the terminal using the ChromeDev tool
 
 ## Screenshot!
-C:\Users\adamz\downloads\password-generator\PwGenScreenshot.png
+
+![mywork](./assets/Images/PwGenScreenshot.png)
