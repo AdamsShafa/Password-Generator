@@ -1,3 +1,6 @@
+// if you are going to use resources from another file you need to import them
+import {getRandom, shuffleArray} from './Assist.js'
+
 // Array of special characters to be included in password
 var specialCharacters = [
   "@",
@@ -182,6 +185,7 @@ function generatePassword() {
   //Run remaining password length times, and push random character from random option array
   for (let i = password.length; i < options.passwordLen; i++) {
     const randomIndex = Math.floor(Math.random() * selectedOptionsArr.length);
+    // we need to import the getRandom function from previos file
     password.push(getRandom(selectedOptionsArr[randomIndex]));
   }
 
